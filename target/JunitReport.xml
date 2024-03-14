@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="33.165" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Feature to verify login page" name="Verify the login Functionality - Example #1.1" time="7.646">
+<system-out><![CDATA[
+Given User should land in login page........................................passed
+When User click on Login button.............................................passed
+Then User enters the zudregipsu@gufum.com and Pathology@123 Field...........passed
+And Click on Login button...................................................passed
+Then User will land in Home Page............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to verify login page" name="Verify the Support page - Example #1.1" time="15.094">
+<system-out><![CDATA[
+Given User should land in Login page........................................passed
+When User click on Support page.............................................passed
+Then Search for the SMS in the search box...................................passed
+And Click on Enter..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to verify login page" name="Verify the Support page - Example #1.2" time="10.31">
+<system-out><![CDATA[
+Given User should land in Login page........................................passed
+When User click on Support page.............................................passed
+Then Search for the Cogmento in the search box..............................passed
+And Click on Enter..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
